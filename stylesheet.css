@@ -1,0 +1,32 @@
+#map {
+    height: 600px;
+    width: 800px;
+    margin: auto;
+}
+
+body {
+    padding-top: 50px;
+    background-color: rgb(63,81,181);
+}
+
+.starter-template {
+    padding: 40px 15px;
+    text-align: center;
+    font-family: 'Merienda', cursive;
+    color: linen;
+    font-size: 20px;
+}
+
+#input {
+    margin-top: 4%;
+    display: inline-flex;
+    margin-bottom: 2%;
+}
+.input-text {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h3 {
+    margin-top: -1%;
+}
