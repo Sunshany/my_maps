@@ -3,8 +3,8 @@
  */
 
 function initMap() {
+
     var url = window.location.href;
-    console.log(url);
     if (url) {
         var name = url.replace(/[\[\]]/g, "\\$&");
         var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
@@ -20,6 +20,12 @@ function initMap() {
                 position: paris,
                 map: map
             });
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(function(position) {
+                    var pos = {
+                        lat: position.coords.latitude,
+                        lng: position.coords.longitude
+                    };
         }
     }
 }
