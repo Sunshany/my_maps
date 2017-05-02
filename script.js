@@ -12,20 +12,23 @@ function initMap() {
         if (!results) {
             var paris = {lat: 48.895173, lng: 2.287865};
             var map = new google.maps.Map(document.getElementById('map'), {
-                zoom: 4,
+                zoom: 10,
                 center: paris,
                 fullscreenControl: true
             });
-            var marker = new google.maps.Marker({
-                position: paris,
-                map: map
-            });
-            if (navigator.geolocation) {
-                navigator.geolocation.getCurrentPosition(function(position) {
+                if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(function (position) {
                     var pos = {
                         lat: position.coords.latitude,
                         lng: position.coords.longitude
                     };
+                    var marker = new google.maps.Marker({
+                        position: pos,
+                        map: map
+                    });
+                    marker.setPosition(pos);
+                });
+            }
         }
     }
 }
