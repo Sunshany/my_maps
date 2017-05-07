@@ -19,6 +19,7 @@ body {
 
 #input {
     display: inline-flex;
+    margin-top: 1%;
 }
 
 .starter-template {
@@ -34,6 +35,7 @@ body {
     display: inline-flex;
     margin-bottom: 5%;
     width: 300px;
+    font-family: 'Merienda', cursive;
 }
 
 #to-input {
@@ -41,12 +43,14 @@ body {
     /*margin-top: -1%;*/
     display: inline-flex;
     margin-bottom: 2%;
+    font-family: 'Merienda', cursive;
 }
 
 .input-text {
     margin-left: 5%;
     margin-right: 5%;
     width: 20px;
+    font-weight: bold;
 }
 
 .badge {
@@ -184,4 +188,18 @@ h3 {
     position: relative;
     margin-left:-20px;
     z-index: -1;
+}
+
+.radio {
+    position: relative;
+    margin-right: 240px;
+    margin-top: -15px;
+    margin-bottom: 20px;
+}
+
+#trajet {
+    font-family: 'Merienda', cursive;
+    position: relative;
+    bottom: 570px;
+    left: 520px;
 }
