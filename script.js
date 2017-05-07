@@ -99,27 +99,7 @@ function directionPath(directionsService, directionDisplay) {
 }
 
 function myPosition() {
-
-
-
-        var inputFrom = document.getElementById('from-input').value
-
-        console.log(inputFrom)
-
-
-
-//    deux cahiers
-//    une tasse de voyage
-//    nails art
-//    gourde
-//    étui à lunette
-//    gobelet
-//    feed
-//    porte feuille
-//    boucle doreille x3
-//    porte monnaie pour chalexia
-//    écouteurs
-//
+    var inputFrom = document.getElementById('from-input').value
 
     var inputValue = document.getElementById('from-input').value
 
@@ -134,9 +114,6 @@ function myPosition() {
                 }
 
                 var text = document.getElementById('from-input')
-
-
-
             })
         } else {
             // Browser doesn't support Geolocation

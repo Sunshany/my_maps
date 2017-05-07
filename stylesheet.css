@@ -35,7 +35,7 @@ body {
     display: inline-flex;
     margin-bottom: 5%;
     width: 300px;
-    font-family: 'Merienda', cursive;
+    font-family: 'Arial', cursive;
 }
 
 #to-input {
@@ -43,7 +43,7 @@ body {
     /*margin-top: -1%;*/
     display: inline-flex;
     margin-bottom: 2%;
-    font-family: 'Merienda', cursive;
+    font-family: 'Arial', cursive;
 }
 
 .input-text {
@@ -192,7 +192,7 @@ h3 {
 
 .radio {
     position: relative;
-    margin-right: 240px;
+    margin-right: 250px;
     margin-top: -15px;
     margin-bottom: 20px;
 }
